@@ -1,4 +1,8 @@
-import React, { ReactElement} from 'react';
+import React, { ReactElement } from 'react';
 export function Hello(): ReactElement {
-    return <div><i>hello</i></div>
+  return (
+    <div>
+      <i>hello</i>
+    </div>
+  );
 }
