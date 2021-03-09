@@ -1,12 +1,18 @@
 import React from 'react';
+import { Layout } from 'antd';
+const { Header, Content, Footer } = Layout;
 
 function App() {
   return (
-    <div>
-      <header>
-        <h1>this is empty now</h1>
-      </header>
-    </div>
+    <Layout className="layout">
+      <Header>
+        <div className="logo">
+          <img src="/logo.svg" alt="Logo" />
+        </div>
+      </Header>
+      <Content></Content>
+      <Footer>Footer</Footer>
+    </Layout>
   );
 }
 

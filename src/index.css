@@ -1,0 +1,14 @@
+.logo img {
+  height: 2rem;
+  width: auto;
+}
+
+.ant-layout-content {
+  margin: 32px 50px;
+  padding: 32px;
+  background: #fff;
+}
+
+.ant-layout {
+  height: 100vh;
+}
