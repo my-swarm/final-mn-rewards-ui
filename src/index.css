@@ -5,10 +5,27 @@
 
 .ant-layout-content {
   margin: 32px 50px;
-  padding: 32px;
-  background: #fff;
+}
+
+.ant-layout-footer {
+  border-top:1px solid rgba(0, 0, 0, .1);
 }
 
 .ant-layout {
   height: 100vh;
 }
+/* 608db9 */
+.collect {
+  background: #fff;
+  border: 2px solid #f3902d;
+  border-radius: 4px;
+  padding: 32px;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+h2.ant-typography { font-weight: 100; }
+
+button img, img.icon { height: 20px; width: auto; margin-right: 4px; }
+
+.ant-descriptions-item-content { text-align: left;}
