@@ -60,12 +60,5 @@ export function Address({ children, link = false, short = false, shorter = false
     );
   }
 
-  return (
-    <>
-      {result}&nbsp;
-      <span onClick={handleCopyToClipboard} style={{ cursor: 'pointer' }}>
-        🔗
-      </span>
-    </>
-  );
+  return <>{result}</>;
 }
