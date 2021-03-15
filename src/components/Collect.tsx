@@ -34,9 +34,9 @@ export function Collect(): ReactElement {
         <Item label="Ethereum network">
           <MetamaskStatus />
         </Item>
-        <Item label="Pending rewards">{balance && formatUnits(balance)} SWM</Item>
+        <Item label="Pending rewards">{balance ? <>{formatUnits(balance)} SWM</> : 'N/A'}</Item>
         <Item label="Click to collect">
-          <Button onClick={handleCollect}>Collect rewards</Button>
+          {address ? <Button onClick={handleCollect}>Collect rewards</Button> : 'Please connect first'}
         </Item>
       </Descriptions>
     </div>

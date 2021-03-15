@@ -22,8 +22,8 @@ export function InfoXdai(): ReactElement {
           </a>
         </li>
         <li>
-          The base currency on xDai network is <strong>xDai</strong> (yeah, right!). It's works the same as Ether works
-          on Mainnet. With the difference that xDai is pegged to USD (which makes it a stablecoin).
+          The base currency on xDai network is <strong>xDai</strong> (yeah, right!). It works the same as Ether works on
+          Mainnet, with the difference that xDai is pegged to USD (which makes it a stablecoin).
         </li>
         <li>
           There are a few ways to get xDai. The best one is to use the{' '}
@@ -34,9 +34,9 @@ export function InfoXdai(): ReactElement {
           <a href="https://www.xdaichain.com/for-users/get-xdai-tokens">official guide</a>.
         </li>
         <li>
-          To move ERC20 tokens between Mainnet and xDai, use <a href="https://omni.xdaichain.com/">OmniBridge</a>. How
-          it works is that you stake (aka lock) your token on one network and the same amount is minted on the other
-          network. <strong>Same wallet address on both networks!</strong>
+          To move ERC20 tokens between Mainnet and xDai, use <a href="https://omni.xdaichain.com/">OmniBridge</a>. You
+          stake (aka lock) your token on one network and the same amount is minted on the other network.{' '}
+          <strong>Same wallet address on both networks!</strong>
         </li>
       </ul>
     </Card>

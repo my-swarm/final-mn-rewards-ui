@@ -14,7 +14,7 @@ export function InfoGuide(): ReactElement {
           >
             Add xDai to your MetaMask.
           </a>
-          It will work same as any other ethereum nework.
+          It will work the same as any other Ethereum network.
         </li>
         <li>
           Get some xDai. We have airdropped a little bit to every masternode account. If you need more, use the{' '}
